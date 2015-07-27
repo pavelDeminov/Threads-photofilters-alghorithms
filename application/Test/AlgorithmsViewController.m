@@ -115,7 +115,7 @@
         
     }
     [self fillDigitsArray];
-    [self findDigit];
+    [self findNumber];
    
     
 }
@@ -307,7 +307,7 @@
     }];
 }
 
--(void)findDigit {
+-(void)findNumber {
     
     int m = [tfM.text intValue];
     
