@@ -309,19 +309,33 @@
 
 -(void)findDigit {
     
+    int m = [tfM.text intValue];
     
-    for (int i = 0; i<_digitsArray.count; i++) {
+    int b[m];
+    for(int i = 0; i < m; i++) {
+        b[i] = 0;
+    }
+    
+    int result = 0;
+    
+    for (int i = 0; i < _digitsArray.count; i++)
+    {
+        int value = [_digitsArray[i] intValue];
         
-        for (int j=i+1; j<_digitsArray.count;j++) {
-            if ([_digitsArray[i] intValue] ==[_digitsArray[j] intValue]) {
-                int result = [_digitsArray[i] intValue];
-                lblFindDigitResult.text = [NSString stringWithFormat:@"%i",result];
-                return;
-            }
+        if ( b[value] ==0)
+        {
+            b[value] = value;
+        }
+        else
+        {
+            result = value;
+            break;
         }
     }
     
-    lblFindDigitResult.text = [NSString stringWithFormat:@"Not found"];
+    lblFindDigitResult.text = [NSString stringWithFormat:@"%i",result];
+    
+    
     
 }
 
