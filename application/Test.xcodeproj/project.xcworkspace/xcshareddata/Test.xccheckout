@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E10A8BD3-1960-4C68-B533-601AA5338C32</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Test</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>6BE3CC30A1794BE55ABE0360DC0B9363411E3C13</key>
 		<string>https://github.com/sindanar/Threads-photofilters-alghorithms.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>application/Test.xcodeproj</string>
+	<string>application/Test.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6BE3CC30A1794BE55ABE0360DC0B9363411E3C13</key>
